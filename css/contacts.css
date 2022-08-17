@@ -24,6 +24,10 @@ input {
     outline: inherit;
 }
 
+body{
+   overflow-x: hidden;
+}
+
 /* nav-bar */
 .navbar-color{
     background-color: #733EE2;
