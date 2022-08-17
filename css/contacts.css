@@ -39,8 +39,9 @@ body{
 
 /* contact */
 
-.logo-size{
-    height: 60vh;
+.logo-image{
+    /* height: 18%; */
+    width:80%;
     margin-top: 50px;
 }
 
@@ -78,8 +79,8 @@ body{
     
 }
 .contact-icons{
-    height: 5vh;
-    margin-right: 10px;
+    width:40%;
+    /* margin-right: -10px; */
 
 }
 
@@ -127,8 +128,8 @@ body{
 /* media-query */
 
 @media only screen and (max-width: 768px) {
-    .logo-size{
-        height: 25vh;
+    .logo-image{
+        width: 60%;
 
     }
     .mb-center{
@@ -164,7 +165,7 @@ body{
     }
     
     .contact-icons{
-        height: 2vh;
+        width:30%;
         margin-right: 20px;
     }
 
@@ -184,8 +185,8 @@ body{
         
     }
     .contact-image{
-        height: 70vh;
-        width:395px;
+        display: none;
+
     }
     .footer{
         font-size: 14px;
