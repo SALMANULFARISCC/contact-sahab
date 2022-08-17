@@ -23,14 +23,15 @@ input {
     cursor: pointer;
     outline: inherit;
 }
-
 body{
-   overflow-x: hidden;
+    overflow-x: hidden;
 }
+
 
 /* nav-bar */
 .navbar-color{
     background-color: #733EE2;
+    overflow-x: hidden;
 }
 .logo{
     width: 100%;
@@ -116,6 +117,7 @@ body{
     margin-left: -17px;
 }
 .footer{
+    overflow-x: hidden;
     margin-top: 60px;
     font-size: 22px;
     background-color: #733EE2;
@@ -128,6 +130,9 @@ body{
 /* media-query */
 
 @media only screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
     .logo-image{
         width: 60%;
 
@@ -189,6 +194,7 @@ body{
 
     }
     .footer{
+        overflow-x: hidden;
         font-size: 14px;
         margin-top: 60px;
         background-color: #733EE2;
