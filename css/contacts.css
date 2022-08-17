@@ -33,7 +33,9 @@ body{
 /* nav-bar */
 .navbar-color{
     background-color: #733EE2;
-    overflow-x: hidden;
+        /* height: 70px; */
+    width: 100%;
+
 }
 .logo{
     width: 100%;
