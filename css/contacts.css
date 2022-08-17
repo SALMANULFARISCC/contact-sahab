@@ -139,7 +139,7 @@ input {
         justify-content: center;
     }
     .contact-title-2{
-        font-size: 30px;
+        font-size: 14px;
         color: #0000004D;
         margin-top: 38px;
         display: flex;
@@ -149,12 +149,17 @@ input {
     
     .contact-sub-title{
 
-        font-size: 25px;
+        font-size: 12px;
         text-align: center;
 
     }
+    .contact-sub-title-2{
+        font-size: 12px;
+    
+    }
+    
     .contact-icons{
-        height: 3vh;
+        height: 2vh;
         margin-right: 20px;
     }
 
@@ -164,18 +169,23 @@ input {
         color: white;
     }
     .contact-feedback-title{
-        font-size: 28px;
+        font-size: 14px;
     }
 
     .contact-input{
         border-radius: 8px;
         padding: 8px 10px;
-        width:320px        
+        width:250px        
         
     }
     .contact-image{
         height: 70vh;
         width:395px;
+    }
+    .footer{
+        font-size: 14px;
+        margin-top: 60px;
+        background-color: #733EE2;
     }
 
   }
